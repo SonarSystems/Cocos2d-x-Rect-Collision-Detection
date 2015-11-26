@@ -61,9 +61,9 @@ bool HelloWorld::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)
     sprite2->setPosition( Vec2( touch->getLocation( ).x, touch->getLocation( ).y ) );
     
     Rect rect1 = sprite1->getBoundingBox( );
-    Rect rect2 = Rect( touch->getLocation( ).x, touch->getLocation( ).y, 1, 1 );
+    Point touchPoint = touch->getLocation( );
     
-    if ( rect1.intersectsRect( rect2 ) )
+    if ( rect1.containsPoint( touchPoint ) )
     {
         log( "Touched" );
     }
