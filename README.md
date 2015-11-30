@@ -3,7 +3,7 @@
 Video Tutorials:
 <ul>
   <li>
-    C++ Video Tutorial - coming soon
+    C++ Video Tutorial - https://www.youtube.com/watch?v=lJoYwFKBcXU
   </li>
   
   <li>
