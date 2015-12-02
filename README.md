@@ -7,6 +7,6 @@ Video Tutorials:
   </li>
   
   <li>
-    JavaScript Video Tutorial - coming soon
+    JavaScript Video Tutorial - https://www.youtube.com/watch?v=t42V0slcf-0
   </li>
 </ul>
